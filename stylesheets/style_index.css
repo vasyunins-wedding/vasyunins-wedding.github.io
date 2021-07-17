@@ -1,0 +1,46 @@
+.photo_block {
+  background-image: url(../images/new_background.jpg);
+  background-size: cover;
+  background-position: 10% 60%;
+  width: 100%;
+  height: 400px;
+}
+
+.helper_div {
+  position:absolute;
+  right: 10%;
+  float: right;
+  width: 35%;
+  height:398px;
+  /*padding-right: 10%;*/
+}
+
+.new_me {
+  float:bottom;
+  width:270px;
+}
+
+.quote {
+  position:absolute;
+  font-family: Book Antiqua;
+  font-size: 26px;
+  font-weight: bold;
+  font-style: italic;
+  color: white;
+  float:left;
+  padding-left: 20%;
+  text-align:left;
+  padding-top: 100px;
+}
+
+.main {
+	border-radius: 6px;
+	font-family: "Verdana", sans-serif;
+	width: 75%; 
+	padding: 2%; 
+	margin-left: 10%; 
+	margin-top: 3%;
+	margin-bottom: 4%;
+	box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
+	background-color: white;
+}

@@ -1,0 +1,254 @@
+body {
+	background-image: url("BackgroundS.jpg");
+	background-attachment: fixed;
+	margin: 0px;
+	font-family: "PT Sans", sans-serif;
+}
+
+p {
+	padding-left: 2%;
+	padding-right: 4%;
+}
+
+h1 {
+	font-family: "Webdings";
+	vertical-align:30px;
+	font-size:30px;
+}
+
+ul {
+	list-style-type: none;
+	color: blue;
+}
+
+.cool_quote {
+	margin-top: 5px;
+	margin-left: 80px;
+	font-size: 14px;
+	color: cyan;
+}
+
+.my_photo {
+	margin-right: 2%;
+}
+
+h2 {
+	font-size: 22px;
+	font-weight: bold;
+}
+
+.header > a {
+	color: blue;
+	text-decoration: underline;
+}
+
+a:hover {
+	color: red;
+	cursor:pointer;		
+}
+
+a:visited,
+.menu_link_a:visited {
+	color:blue;
+}
+
+.header {
+	width:100%;
+	height:82px;
+	border-bottom: 4px solid #00BFFF;
+	/*background-color: #0000CD;*/
+	background-image: url("BackgroundM.jpg");
+	background-position: 50% 90%;
+}
+
+.header_left {
+	margin-left: 40px;
+	float: left;
+	width: 68%;
+	height: 80px;
+	color: white;
+	text-align: left;
+	/*padding-left: 5%;*/
+}
+
+.header_right {
+	margin-right: 40px;
+	float: right;
+	width: 20%;
+	height: 80px;
+	color: white;
+	text-align: right;
+	/*padding-right: 4%;*/
+}
+
+.side_menu {
+	/*position: fixed;*/
+	top: 88px;
+	display: block;
+	float: left;
+	opacity: 0.8;
+	margin-top: 5px;
+	margin-left: 10px;
+	border: 1px solid lightgray;
+	border-radius: 5px;
+	width: 16%;
+	height: 820px;
+	background-color:white;
+	color: blue;
+	text-align: center;
+}
+
+.side_menu .weather {
+	margin-top: 315px;
+}
+
+.menu_link_a {
+	color: blue;
+	padding: 0px;
+	text-decoration: none;
+}
+
+.testing {
+	display: block;
+	padding: 16px 0px;
+	background-color: white;
+	border-right: 1px solid lightgray;
+	border-bottom: 1px solid lightgray;
+	border-radius: 10px;
+	width: 100%;
+	/*height: 50px;*/
+	font-size: 16px;
+	text-decoration: none;
+}
+
+.testing:hover {
+	color: red;
+	margin-left: 6%;
+}
+
+.icon {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin-left: 0 10px;
+    vertical-align: bottom;
+    background: url("images/sprites.png") no-repeat;
+    box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.2);
+}
+
+.icon-1 {
+	background-position: 0px -24px;
+}
+
+.icon-2 {
+	background-position: -456px -48px;
+}
+
+.icon-3 {
+	background-position: -120px -120px;
+}
+
+.icon-4 {
+	background-position: -144px -72px;
+}
+
+.icon-5 {
+	background-position: -168px 0px;
+}
+
+.icon-6 {
+	background-position: -384px -24px;
+}
+
+.icon-7 {
+	background-position: -168px 0px;
+}
+
+.icon-8 {
+	background-position: -336px -24px;
+}
+
+.icon-9 {
+	background-position: -72px 0px;
+}
+
+.icon-10 {
+	background-position: -408px -120px;
+}
+	
+.main {
+	margin-top: 5px;
+	float:right;
+	width:80%;
+	border-left: 4px solid #00BFFF;
+	padding: 10px;
+}
+
+.csgo, 
+.other_hammer_stuff {
+	margin: auto;
+	margin-bottom: 10px;
+	padding-left: 40px;
+	padding-top: 10px;
+	width: 90%;
+	height: 170px;
+	border: 2px dotted lightgray;
+	background-color: white;
+	border-radius: 10px;
+}
+
+.csgo span,
+.other_hammer_stuff span {
+	font-family: "Tahoma";
+	font-size: 16px;
+	color: blue;
+}
+
+.csgo img,
+.other_hammer_stuff img {
+	margin-top: 10px;
+	width: 150px;
+	margin-right: 60px;
+}
+
+.csgo img:last-child,
+.other_hammer_stuff img:last-child {
+	margin-right: 0px;
+}
+
+form[name="email"] {
+	display:block;
+	border: 2px dashed lightgray;
+	width: 90%;
+	padding-left: 20px;
+	height: 300px;
+}
+
+textarea {
+	width:80%;
+	margin-left: auto;
+	margin-top: 20px;
+	border: 2px solid black;
+	border-radius: 5px;
+	resize: none;
+}
+
+textarea:focus {
+	border: 2px solid green;
+}
+
+input[type="text"] {
+	width:80%;
+	margin-left: auto;
+	margin-top: 20px;
+	border: 2px solid black;
+	border-radius: 5px;
+}
+
+input:focus {
+	border: 2px solid green;
+}
+
+label textarea {
+	vertical-align: middle;
+}
