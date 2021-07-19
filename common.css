@@ -63,8 +63,8 @@ a:hover {
 }
 
 .menu_button:hover {
-	color: #001A00;
-	border-top: 4px solid #001A00;
+	color: #004D00;
+	border-top: 4px solid #004D00;
 }
 
 .footer {
@@ -111,4 +111,99 @@ a:hover {
 #map {
 	width: 660px;
 	height: 300px;
+}
+
+
+
+
+
+
+
+
+
+section#services {
+  width: 100%;
+  background-color: red;
+  padding: 50px 0;
+  display: flex;
+}
+
+.container {
+  width: 100%;
+  max-width: 320px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.blocks-container{
+   text-align: center;    
+}
+
+.block {
+  margin: 30px 0;
+  background-color: #983351;
+  padding: 30px 10px;
+  width: 100%;
+}
+
+.block:hover {
+  background-color: #AA3939;
+}
+
+#services .icon {
+  font-size: 50px;
+  display: inline-block;
+  background-color: #AA8439;
+  padding: 20px;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  color: #fff;
+  cursor: pointer;
+}
+
+#services h3 {
+  font-weight: 800;
+  font-size: 25px;
+  padding: 20px 0;
+  font-family: 'Cinzel', serif;
+}
+
+#services .icon:hover {
+  background-color: #fff;
+  color: #AA8439;
+}
+
+#services p {
+  font-family: 'Patua One', cursive;
+}
+/*====================================*/
+/*=====TABLET=====*/
+/*====================================*/
+
+@media screen and (min-width: 768px) {    
+    .container {
+   max-width: 720px;
+    }
+    
+    .block {
+   float: left;
+   width: 46%;
+   margin-left: 2%;
+   margin-right: 2%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .container {
+   max-width: 960px;
+    }
+    
+    .block {
+   width: 29.33%;
+    }
+    
+    .desktop {
+  display: none;
+    }
 }
