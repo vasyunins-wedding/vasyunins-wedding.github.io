@@ -147,3 +147,33 @@ section#services {
 .block:hover {
   background-color: #AA3939;
 }
+
+
+
+
+@media screen and (min-width: 768px) {    
+    .container {
+   max-width: 720px;
+    }
+    
+    .block {
+   float: left;
+   width: 46%;
+   margin-left: 2%;
+   margin-right: 2%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .container {
+   max-width: 960px;
+    }
+    
+    .block {
+   width: 29.33%;
+    }
+    
+    .desktop {
+  display: none;
+    }
+}
