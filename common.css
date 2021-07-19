@@ -26,16 +26,17 @@ a:hover {
 }
 
 .logo {
-  float:left;
-  width:270px;
+    margin-top: 20px;
+    float:left;
+    width:270px;
 }
 
 .menu {
 	position: absolute;
-	left: 35%;
+	left: 50%;
 	margin-right: 40px;
 	float: right;
-	width: 60%;
+	width: 50%;
 	height: 80px;
 }
 
