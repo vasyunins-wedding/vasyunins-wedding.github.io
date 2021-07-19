@@ -22,15 +22,15 @@
 
 .quote {
   position:absolute;
-  font-family: Book Antiqua;
-  font-size: 26px;
-  font-weight: bold;
+  font-family: Helvetica;
+  font-size: 70px;
+  /*font-weight: bold;*/
   font-style: italic;
   color: white;
-  float:left;
-  padding-left: 20%;
-  text-align:left;
-  padding-top: 100px;
+  float:center;
+  padding-left: 50%;
+  text-align:center;
+  padding-top: 220px;
 }
 
 .main {
