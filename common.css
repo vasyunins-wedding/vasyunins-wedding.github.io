@@ -42,14 +42,14 @@ a:hover {
 
 .menu_button {
  	background-color: transparent;
-	color: white;
+	color: black;
  	float:left;
  	width: 14%;
 	height: 78px;
   	text-align: center;
   	padding-top: 20px;
   	margin-right:1%;
-        font-size: 14px;
+    font-size: 18px;
 }
 
 .first_button {
@@ -63,8 +63,8 @@ a:hover {
 }
 
 .menu_button:hover {
-	color: black;
-	border-top: 4px solid black;
+	color: #001A00;
+	border-top: 4px solid #001A00;
 }
 
 .footer {
