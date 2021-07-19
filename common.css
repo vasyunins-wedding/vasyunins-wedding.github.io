@@ -49,7 +49,7 @@ a:hover {
   	text-align: center;
   	padding-top: 20px;
   	margin-right:1%;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .first_button {
@@ -123,7 +123,6 @@ a:hover {
 
 section#services {
   width: 100%;
-  background-color: red;
   padding: 50px 0;
   display: flex;
 }
@@ -141,69 +140,10 @@ section#services {
 
 .block {
   margin: 30px 0;
-  background-color: #983351;
   padding: 30px 10px;
   width: 100%;
 }
 
 .block:hover {
   background-color: #AA3939;
-}
-
-#services .icon {
-  font-size: 50px;
-  display: inline-block;
-  background-color: #AA8439;
-  padding: 20px;
-  height: 100px;
-  width: 100px;
-  border-radius: 50%;
-  color: #fff;
-  cursor: pointer;
-}
-
-#services h3 {
-  font-weight: 800;
-  font-size: 25px;
-  padding: 20px 0;
-  font-family: 'Cinzel', serif;
-}
-
-#services .icon:hover {
-  background-color: #fff;
-  color: #AA8439;
-}
-
-#services p {
-  font-family: 'Patua One', cursive;
-}
-/*====================================*/
-/*=====TABLET=====*/
-/*====================================*/
-
-@media screen and (min-width: 768px) {    
-    .container {
-   max-width: 720px;
-    }
-    
-    .block {
-   float: left;
-   width: 46%;
-   margin-left: 2%;
-   margin-right: 2%;
-    }
-}
-
-@media screen and (min-width: 992px) {
-    .container {
-   max-width: 960px;
-    }
-    
-    .block {
-   width: 29.33%;
-    }
-    
-    .desktop {
-  display: none;
-    }
 }
