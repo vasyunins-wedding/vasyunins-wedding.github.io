@@ -1,4 +1,5 @@
 .photo_block {
+  position:absolute;
   background-image: url(../images/new_background.jpg);
   background-size: cover;
   background-position: 100% 25%;
