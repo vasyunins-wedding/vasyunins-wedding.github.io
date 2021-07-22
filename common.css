@@ -118,20 +118,27 @@ a:hover {
 
 
 
-.block {
-  display:inline-block;
-  margin-left: 2%;
-  padding: 30px 10px;*/
-  width: 40%;
-  height: 350px;
-  text-align:center;
+.block_photo {
+    display:inline-block;
+    margin-left: 2%;
+    /*padding: 30px 10px;*/
+    width: 40%;
+    height: 350px;
+    float: left;
 }
 
-.block index_history_photo {
- display:block;
- float: center;
+.block_text {
+    width: 40%;
+    height: 350px;
+    text-align: center;
+    display: inline-block;
+    float: right;
 }
 
-.block:hover {
+.block_photo:hover {
+    background-color: #AA3939;
+}
+
+.block_text:hover {
   background-color: #AA3939;
 }
