@@ -122,16 +122,15 @@ a:hover {
 }
 
 .block_photo {
-    border-radius: 10px;
     display: inline-block;
-    width: 30%;
+    width: 35%;
     height: 350px;
     float: left;
 }
 
 .block_text {
     width: 60%;
-    margin-right: 5%;
+    margin-right: 3%;
     height: 350px;
     border-radius: 10px;
     box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
