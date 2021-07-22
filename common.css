@@ -117,7 +117,7 @@ a:hover {
 
 .container { 
     margin-top: 30px;
-    position: absolute;
+    /*position: absolute;*/
     width: 100%;
 }
 
