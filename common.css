@@ -122,6 +122,10 @@ a:hover {
     width: 100%;
 }
 
+.clearer {
+   clear: both;  
+}
+
 .block_photo {
     display: inline-block;
     width: 35%;
