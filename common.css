@@ -116,11 +116,12 @@ a:hover {
 
 
 .container { 
-    position:absolute;
+    position: absolute;
+    width: 100%;
 }
 
 .block_photo {
-    display:inline-block;
+    display: inline-block;
     width: 50%;
     height: 350px;
     float: left;
