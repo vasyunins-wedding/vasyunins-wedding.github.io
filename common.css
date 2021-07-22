@@ -120,13 +120,16 @@ a:hover {
 
 .block {
   display:inline-block;
-  /*margin: 30px 0;
+  margin-left: 2%;
   padding: 30px 10px;*/
   width: 40%;
+  height: 350px;
+  text-align:center;
 }
 
-.block img {
+.block index_history_photo {
  display:block;
+ float: center;
 }
 
 .block:hover {
