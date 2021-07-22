@@ -1,7 +1,7 @@
 .photo_block {
   background-image: url(../images/new_background.jpg);
   background-size: cover;
-  background-position: 10% 60%;
+  background-position: 100% 30%;
   width: 100%;
   height: 400px;
 }
@@ -31,25 +31,4 @@
   padding-left: 50%;
   text-align:center;
   padding-top: 220px;
-}
-
-.index_history_photo {
-    height: 350px;
-    width: 350px;
-    float: center;
-    /*margin-left: 12%;*/
-}
-
-.index_history_text {
-	border-radius: 6px;
-	font-family: "Verdana", sans-serif;
-	width: 40%; 
-    height: 250px;
-	padding: 2%; 
-    float: center;
-	margin-left: 45%; 
-	margin-top: 3%;
-	margin-bottom: 4%;
-	box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
-	background-color: white;
 }
