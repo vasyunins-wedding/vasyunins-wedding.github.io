@@ -115,22 +115,20 @@ a:hover {
 
 
 
-
-
+.container { 
+    position:absolute;
+}
 
 .block_photo {
     display:inline-block;
-    margin-left: 2%;
-    /*padding: 30px 10px;*/
-    width: 40%;
+    width: 50%;
     height: 350px;
     float: left;
 }
 
 .block_text {
-    width: 40%;
+    width: 50%;
     height: 350px;
-    text-align: center;
     display: inline-block;
     float: right;
 }
@@ -141,4 +139,14 @@ a:hover {
 
 .block_text:hover {
   background-color: #AA3939;
+}
+
+.index_history_photo {
+    float: center;
+}
+
+.helper_text {
+    text-align: center;
+    font-family: "Verdana", sans-serif;
+    font-size: 60px;
 }
