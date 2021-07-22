@@ -116,6 +116,7 @@ a:hover {
 
 
 .container { 
+    margin-top: 30px;
     position: absolute;
     width: 100%;
 }
@@ -135,19 +136,15 @@ a:hover {
 }
 
 .block_photo:hover {
-    background-color: #AA3939;
+    background-color: #E8C36D;
 }
 
 .block_text:hover {
-  background-color: #AA3939;
-}
-
-.index_history_photo {
-    float: center;
+  background-color: #E8C36D;
 }
 
 .helper_text {
-    text-align: center;
+    text-align: left;
     font-family: "Verdana", sans-serif;
-    font-size: 60px;
+    font-size: 40px;
 }
