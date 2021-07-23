@@ -6,19 +6,10 @@
   height: 400px;
 }
 
-/*.helper_div {
-  position:absolute;
-  right: 10%;
-  float: right;
-  width: 35%;
-  height:398px;
-  padding-right: 10%;
-}*/
-
 .welcome {
   position:absolute;
   margin-top:300px;
-  margin-left:50%;
+  margin-left:5%;
   float:bottom;
   width:500px;
 }
