@@ -35,6 +35,7 @@
 }
 
 .prefooter {
+  margin-top: 30px;
   background-image: url(../images/we_footer.jpg);
   background-size: cover;
   background-position: 10% 25%;
