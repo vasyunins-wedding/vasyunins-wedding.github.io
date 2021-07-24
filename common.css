@@ -105,8 +105,9 @@ a:hover {
 }
 
 .pictogram_wrapper {
+    margin-top: 6px; 
     width: 100%;
-    height: 60px;
+    height: 80px;
 }
 
 .pictograms {
@@ -125,10 +126,6 @@ a:hover {
 .instagram_logo {
     width:  30px;
     height: 30px;
-}
-
-.phone_logo {
-    width:  25px;
 }
 
 .vk_logo {
