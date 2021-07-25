@@ -33,8 +33,7 @@ a:hover {
 .menu {
 	position: absolute;
     left: 40%;
-	padding-right: 40px;
-	width: 60%;
+	width: 55%;
 	height: 80px;
 }
 
@@ -48,16 +47,6 @@ a:hover {
   	padding-top: 20px;
   	padding-right:1%;
     font-size: 16px;
-}
-
-.first_button {
-	/*margin-left: 5%;*/
-	margin-right: 0%;
-}
-
-.modelling_button {
-	margin-right:2%;
-	margin-left:2%;
 }
 
 .menu_button:hover {
