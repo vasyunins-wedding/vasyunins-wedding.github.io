@@ -120,12 +120,14 @@ a:hover {
 }
 
 .instagram_logo {
+    display: inline-block;
     float: left;
     width:  30px;
     height: 30px;
 }
 
 .vk_logo {
+    display: inline-block;
     margin-top: 20px;
     float: left;
     width:  30px;
@@ -133,13 +135,14 @@ a:hover {
 }
 
 .footer_links {
+    display: inline-block;
     width: 70%;
     float: left;
 }
 
 .footer_links_text {
     padding-left: 45px;
-    font-size: 20px;
+    font-size: 16px;
     color: black;
 }
 
