@@ -114,17 +114,20 @@ a:hover {
 
 .logo_footer {
     margin-left: 5%;
+    margin-top: 20px;
     float:left;
     width:350px;
 }
 
 .instagram_logo {
+    float: left;
     width:  30px;
     height: 30px;
 }
 
 .vk_logo {
     margin-top: 20px;
+    float: left;
     width:  30px;
     height: 30px;
 }
@@ -132,12 +135,12 @@ a:hover {
 .footer_links {
     width: 70%;
     float: left;
-    padding-left: 30px;
 }
 
 .footer_links_text {
-    font-size: 16px;
-    color: red;
+    padding-left: 45px;
+    font-size: 20px;
+    color: black;
 }
 
 .github {
