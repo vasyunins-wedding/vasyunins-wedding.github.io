@@ -32,8 +32,8 @@ a:hover {
 
 .menu {
 	position: absolute;
+    left: 40%;
 	padding-right: 40px;
-	float: right;
 	width: 60%;
 	height: 80px;
 }
@@ -42,7 +42,7 @@ a:hover {
  	background-color: transparent;
 	color: black;
  	float:left;
- 	width: 10%;
+ 	width: 12%;
 	height: 78px;
   	text-align: center;
   	padding-top: 20px;
