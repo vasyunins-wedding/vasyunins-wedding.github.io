@@ -18,7 +18,7 @@ a:hover {
 
 .header_left {
 	float: left;
-	width: 40%;
+	width: 32%;
 	height: 80px;
 	text-align: left;
 }
@@ -42,7 +42,7 @@ a:hover {
  	background-color: transparent;
 	color: black;
  	float:left;
- 	width: 12%;
+ 	width: 17%;
 	height: 78px;
   	text-align: center;
   	padding-top: 20px;
