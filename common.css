@@ -74,6 +74,13 @@ a:hover {
     float: left; 
 }
 
+.footer_quote_div {
+  width: 100%;
+  padding-top: 100px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
 .footer_quote {
   font-family: Helvetica;
   font-size: 18px;
@@ -120,6 +127,17 @@ a:hover {
     margin-top: 20px;
     width:  30px;
     height: 30px;
+}
+
+.footer_links {
+    width: 70%;
+    float: left;
+    padding-left: 30px;
+}
+
+.footer_links_text {
+    font-size: 16px;
+    color: red;
 }
 
 .github {
